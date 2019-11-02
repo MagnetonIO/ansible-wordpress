@@ -1,8 +1,8 @@
 ANXS.hostname,v1.0.4
-franklinkim.ufw,1.3.0
+weareinteractive.ufw
 ANXS.git,v1.0.1
-geerlingguy.php,1.2.12
-geerlingguy.apache,1.3.0
+geerlingguy.php
+geerlingguy.apache
 geerlingguy.mysql
 ANXS.monit,v1.0.1
 yatesr.timezone

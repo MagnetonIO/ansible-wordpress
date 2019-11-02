@@ -5,14 +5,14 @@ timezone: UTC
 # WordPress
 wp_version: 4.0
 wp_install_dir: '/var/sites/expamle.com'
-wp_db_name: 'expamledb'
-wp_db_user: 'expamleuser'
-wp_db_password: 'expamle2014password'
+wp_db_name: 'sunocodb'
+wp_db_user: 'sunocouser'
+wp_db_password: 'bAnvD^PKWH'
 wp_db_host: 'localhost'
 
-wp_apache_hostname: 'expamle.com'
-wp_apache_alias: 'www.expamle.com'
-wp_apache_admin_email: 'admin@expamle.com'
+wp_apache_hostname: 'sunocolp.thirdwavestage.com'
+wp_apache_alias: 'www.sunocolp.thirdwavestage.com'
+wp_apache_admin_email: 'admin@sunocolp.thirdwavestage.com'
 
 # MySQL
 mysql_port: 3306
@@ -29,7 +29,7 @@ mysql_users:
     priv: '{{wp_db_name}}.*:ALL'
 
 # Monit
-monit_notify_email: "admin@expamle.com"
+monit_notify_email: "mlong@magneton.io"
 
 monit_mailserver_host: "localhost"
 # monit_mailserver_port:
@@ -39,7 +39,7 @@ monit_mailserver_host: "localhost"
 monit_mailserver_timeout: 60
 
 monit_port: 3737
-monit_address: 'expamle.com'
-monit_allow: ['expamle.com', 'localhost']
+monit_address: 'sunocolp.thirdwavestage.com'
+monit_allow: ['sunocolp.thirdwavestage.com', 'localhost']
 monit_username: 'admin'
-monit_password: 'expamle2014password'
+monit_password: 'bAnvD^PKWH'

@@ -4,17 +4,14 @@
 
 - src: yatesr.timezone
 
-- src: franklinkim.ufw
-  version: 1.3.0
+- src: weareinteractive.ufw
 
 - src: ANXS.git
   version: v1.0.1
 
 - src: geerlingguy.php
-  version: 1.2.12
 
 - src: geerlingguy.apache
-  version: 1.3.0
 
 - src: geerlingguy.mysql
 

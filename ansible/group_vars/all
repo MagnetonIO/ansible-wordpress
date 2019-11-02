@@ -30,21 +30,23 @@ git_server_base_path: "/srv/git"
 git_server_export_all: yes
 
 # WordPress
-wp_version: 4.0
-wp_install_dir: '/var/sites/awesome_wordpress_site'
-wp_db_name: 'awesome_wp_db'
-wp_db_user: 'awesome_wp_user'
-wp_db_password: 'awesome_wp_pass'
+wp_version: 5.2.4
+wp_install_dir: '/var/sites/sunocolp'
+wp_db_name: 'sunocolp_db'
+wp_db_user: 'sunocolp'
+wp_db_password: 'bAnvD^PKWH'
 wp_db_host: 'localhost'
 
-wp_apache_hostname: 'localhost'
-wp_apache_alias: '{{wp_apache_hostname}}'
-wp_apache_admin_email: 'admin@example.com'
+
+wp_apache_hostname: 'sunocolp.thirdwavestage.com'
+wp_apache_alias: 'www.sunocolp.thirdwavestage.com'
+wp_apache_admin_email: 'matthew@thirdwavedigital.com'
 
 # MySQL
+mysql_version: 8.0
 mysql_port: 3306
 # mysql_bind_address: 'localhost'
-mysql_root_password: 'super_secure_password'
+mysql_root_password: 'bAnvD^PKWH'
 mysql_databases:
   - name: '{{wp_db_name}}'
     encoding: 'utf8'
@@ -56,25 +58,30 @@ mysql_users:
     priv: '{{wp_db_name}}.*:ALL'
 
 # PHP
+php_version: '7.3'
 php_memory_limit: "128M"
 php_max_execution_time: "90"
 php_upload_max_filesize: "256M"
 php_packages:
-- php5
-- php5-cli
-- php5-common
-- php5-curl
-- php5-dev
-- php5-gd
-- php5-gmp
-- php5-mcrypt
-- php5-memcache
-- php5-mysql
-- php5-xsl
-- php-apc
+- php
+- php-cli
+- php-common
+- php-curl
+- php-dev
+- php-gd
+- php-gmp
+- php-mcrypt
+- php-memcache
+- php-mysql
+- php-xsl
+- php-apcu
 - php-pear
-- libapache2-mod-php5
-- php5-fpm
+- libapache2-mod-php
+- php-fpm
+
+# PHP PECL
+php_pecl_extensions:
+- xdebug
 
 # Apache
 apache_listen_port: 80
@@ -132,7 +139,7 @@ automysqlbackup_latest: "no"
 
 
 # Monit
-monit_notify_email: "admin_email@example.com"
+monit_notify_email: "matthew@thirdwavedigital.com"
 
 monit_logfile: "syslog facility log_daemon"
 
@@ -157,6 +164,6 @@ monit_port: 3737
 monit_address: "localhost"
 monit_allow: ["localhost"]
 monit_username: 'admin'
-monit_password: 'super_secure_password'
+monit_password: 'bAnvD^PKWH'
 monit_ssl: no
 monit_cert: "/etc/monit/monit.pem"

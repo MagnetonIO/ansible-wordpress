@@ -22,7 +22,7 @@ case $i in
 	# Set default args
     INVENTORY="stage"
     PLAYBOOK="site.yml"
-    REMOTE_USER="vagrant"
+    REMOTE_USER="root"
     CONNECTION="local"
     ;;
     *)

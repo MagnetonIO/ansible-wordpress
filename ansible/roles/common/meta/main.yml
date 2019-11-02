@@ -1,6 +1,6 @@
 ---
 dependencies:
 - role: 'ANXS.hostname'
-- role: 'franklinkim.ufw'
+- role: 'weareinteractive.ufw'
 - role: 'ANXS.git'
 - role: 'yatesr.timezone'
