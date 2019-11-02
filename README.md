@@ -29,6 +29,9 @@ Run machine locally:
   - http://localhost:4568 - Monit
 ```shell 
 $ vagrant up
+
+Install locally:
+  - sh local-bootstrap.sh
 ```
 
 Run production machine:
@@ -41,7 +44,7 @@ Default env arguments:
 ```shell
 INVENTORY='stage'
 PLAYBOOK='site.yml'
-REMOTE_USER='vagrant'
+REMOTE_USER='root'
 CONNECTION='local'
 ```
 
