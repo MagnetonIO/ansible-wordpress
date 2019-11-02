@@ -29,15 +29,12 @@ Run machine locally:
   - http://localhost:4568 - Monit
 ```shell 
 $ vagrant up
-
-Install locally:
-  - sh local-bootstrap.sh
 ```
 
 Run production machine:
   - Update production inventory (./production)
 ```shell 
-$ INVENTORY='production' REMOTE_USER='ubuntu' CONNECTION='smart' PLAYBOOK='site.yml' vagrant up
+$ sh local-bootstrap.sh
 ```
 
 Default env arguments:
