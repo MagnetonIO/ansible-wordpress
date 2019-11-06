@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ANSIBLE_PROJECT=/vagrant/ansible
+ANSIBLE_PROJECT=ansible
 
 # Read args
 for i in "$@"
@@ -39,7 +39,6 @@ echo CONNECTION = ${CONNECTION}
 # Install ansible
 apt-get install -y software-properties-common
 apt-add-repository -y ppa:ansible/ansible
-add-apt-repository -y ppa:ondrej/php
 apt-get update && apt-get -y upgrade
 apt-get install -y ansible
 
