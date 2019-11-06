@@ -4,10 +4,10 @@ timezone: UTC
 
 # WordPress
 wp_version: 4.0
-wp_install_dir: '/var/sites/expamle.com'
+wp_install_dir: '/var/sites/sunocolp'
 wp_db_name: 'sunocodb'
 wp_db_user: 'sunocouser'
-wp_db_password: 'bAnvD^PKWH'
+wp_db_password: 'sunocouser'
 wp_db_host: 'localhost'
 
 wp_apache_hostname: 'sunocolp.thirdwavestage.com'

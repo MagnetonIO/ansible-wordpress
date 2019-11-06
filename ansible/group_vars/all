@@ -45,6 +45,7 @@ wp_apache_admin_email: 'matthew@thirdwavedigital.com'
 # MySQL
 mysql_version: 8.0
 mysql_port: 3306
+mysql_default_authentication_plugin: mysql_native_password
 # mysql_bind_address: 'localhost'
 mysql_root_password: 'bAnvD^PKWH'
 mysql_databases:
