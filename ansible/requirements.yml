@@ -1,22 +1,21 @@
 ---
 - src: ANXS.hostname
-  version: v1.0.4
 
 - src: yatesr.timezone
 
 - src: weareinteractive.ufw
 
 - src: ANXS.git
-  version: v1.0.1
 
 - src: geerlingguy.php
+
+- src: geerlingguy.php-versions
 
 - src: geerlingguy.apache
 
 - src: geerlingguy.mysql
 
 - src: ANXS.monit
-  version: v1.0.1
 
 - src: darthwade.php-pecl
 

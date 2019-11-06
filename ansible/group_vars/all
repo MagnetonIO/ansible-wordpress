@@ -38,8 +38,8 @@ wp_db_password: 'bAnvD^PKWH'
 wp_db_host: 'localhost'
 
 
-wp_apache_hostname: 'sunocolp.thirdwavestage.com'
-wp_apache_alias: 'www.sunocolp.thirdwavestage.com'
+wp_apache_hostname: 'sunoco-lamp.rs.3waveserver.com'
+wp_apache_alias: 'www.sunoco-lamp.rs.3waveserver.com'
 wp_apache_admin_email: 'matthew@thirdwavedigital.com'
 
 # MySQL
@@ -59,7 +59,7 @@ mysql_users:
     priv: '{{wp_db_name}}.*:ALL'
 
 # PHP
-php_version: '7.3'
+php_version: '7.4'
 php_memory_limit: "128M"
 php_max_execution_time: "90"
 php_upload_max_filesize: "256M"
@@ -74,7 +74,6 @@ php_packages:
 - php-mcrypt
 - php-memcache
 - php-mysql
-- php-xsl
 - php-apcu
 - php-pear
 - libapache2-mod-php
